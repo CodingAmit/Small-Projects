@@ -1,0 +1,142 @@
+/* Google Font Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Poppins:wght@300;400;500;600&family=Roboto:wght@300;400&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aliceblue;
+}
+
+.profile-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 370px;
+    width: 100%;
+    background-color: #FFFFFF;
+    border-radius: 24px;
+    padding: 25px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    
+}
+
+.image{
+    position: relative;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: rgb(85, 85, 198);
+    padding: 3px;
+    margin-bottom: 15px;
+
+}
+.image .profile-image{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #FFFFFF;
+}
+.profile-card .text-area{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.text-area .name{
+    font-size: 22px;
+    font-weight: 500;
+}
+.text-area .job{
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.profile-card .media-buttons{
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.media-buttons .link{
+    color: #FFFFFF;
+    border-radius: 50%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    width: 34px;
+    height: 34px;
+    margin: 0 8px;
+    text-decoration: none;
+}
+
+.media-buttons .facebook{
+    background-color: #0a66c2;
+}
+
+.facebook:hover{
+    background-color: #094e93;
+}
+
+.media-buttons .twitter{
+    background-color:#1da1f2;
+}
+
+.twitter:hover{
+    background-color: #1880c1;
+}
+
+.media-buttons .instagram{
+    background-color: #cd486b;
+}
+
+.instagram:hover{
+    background-color: #a23a56;
+}
+
+.media-buttons .youtube{
+    background-color: #ff0000;
+}
+
+.youtube:hover{
+    background-color: #cb0000;
+}
+
+.media-buttons .linkedin{
+    background-color: #0a66c2;
+}
+
+.linkedin:hover{
+    background-color: #0b4f93;
+}
+
+.profile-card .buttons{
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.buttons .button{
+    font-size: 15px;
+    font-weight: 500;
+    border: none;
+    border-radius: 20px;
+    color: #FFFFFF;
+    background-color: #0a66c2;
+    padding: 8px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.buttons .button:hover{
+    background-color: #0b4a8a;
+}
